@@ -1,8 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+
+
+.score-digits {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background-color: black;
+}
+
+.btn-point-increments {
+    color: #9AABD8;
 }
