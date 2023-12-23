@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
 
 body {
-    display: flex;
+    display: block;
     text-align: center;
     justify-content: space-around;
     margin: 0px auto;
@@ -58,5 +58,15 @@ body {
 
 .score-box, .increment-container {
     width: 164px;
+}
 
+#clear {
+    margin-top: 30px;
+}
+#clr {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    background-color: #1B244A;
+    padding: 8px 12px;
 }
